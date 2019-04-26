@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 08</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="../fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../stylesheets/style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	</head>
+	<body>
+		<div class="wrapper">
+    <form action="/cursos" method="POST" id="wizard"> 
+        		<!-- SECTION 1 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+
+						<div class="image-holder">
+							<img src="../images/form-wizard-1.jpg" alt="">
+						</div>
+
+						<div class="form-content" >
+							
+						<div class="form-header" style="margin-bottom: 5%">
+							<h3>Matricula de Cursos</h3>
+						</div>
+							
+                        <div class="form-row">
+                                <label for="">
+                                    Curso escogido:
+                                </label>
+                                <div class="form-holder">
+                                    <span type="text" class="form-control">{curso}</span>
+                                 </div>
+                            </div>
+                            <div class="form-row">
+                                <label for="">
+                                    Niveles escogidos:
+                                </label>
+                                <div class="form-holder">
+                                        <span type="text" class="form-control">{basico} {intermedio} {avanzado}</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <label for="">
+                                    Tipo de pago:
+                                </label>
+                                <div class="form-holder">
+                                        <span type="text" class="form-control">{metodoPago}</span>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                    <label for="">
+                                        Costo:
+                                    </label>
+                                    <div class="form-holder">
+                                            <span type="text" class="form-control">{costo}</span>
+                                    </div>
+                                </div>
+                            <div class="form-row">
+                                    <label for="">
+                                        Descuento:
+                                    </label>
+                                    <div class="form-holder">
+                                            <span type="text" class="form-control">{descuento}</span>
+                                    </div>
+                                </div>
+                                <div class="form-row">
+                                        <label for="">
+                                            Costo final:
+                                        </label>
+                                        <div class="form-holder">
+                                                <span type="text" class="form-control">{costoFinal}</span>
+                                        </div>
+                                    </div>
+						
+						</div>
+					</div>
+                </section>
+
+	
+
+				
+
+            </form>
+		</div>
+
+		
+		<!-- JQUERY -->
+		<script src="../javascripts/jquery-3.3.1.min.js"></script>
+
+		<!-- JQUERY STEP -->
+		<script src="../javascripts/jquery.steps.js"></script>
+		<script src="../javascripts/main.js"></script>
+		<!-- Template created and distributed by Colorlib -->
+</body>
+</html>

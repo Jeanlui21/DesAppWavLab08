@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Lab 08</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="colorlib.com">
+
+		<!-- MATERIAL DESIGN ICONIC FONT -->
+		<link rel="stylesheet" href="../fonts/material-design-iconic-font/css/material-design-iconic-font.css">
+
+		<!-- STYLE CSS -->
+		<link rel="stylesheet" href="../stylesheets/style.css">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	
+	</head>
+	<body>
+		<div class="wrapper">
+    <form action="/cursos" method="POST" id="wizard"> 
+        		<!-- SECTION 1 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+
+						<div class="image-holder">
+							<img src="../images/form-wizard-1.jpg" alt="">
+						</div>
+
+						<div class="form-content" >
+							
+						<div class="form-header" style="margin-bottom: 5%">
+							<h3>Matricula de Cursos</h3>
+						</div>
+							
+						<p>Por favor, seleccione un curso</p>
+						<div class="form">
+						<div class="form-holder">
+								
+							<select name="curso" id="" class="form-control" style="padding-left: 10px">
+									<option value="java" class="option">JAVA</option>
+									<option value="php" class="option">PHP</option>
+									<option value="net" class="option">.NET</option>
+							</select>
+								
+							<i class="zmdi zmdi-caret-down" style="padding-right: 10px"></i>
+							</div>
+						</div>
+						
+						</div>
+					</div>
+                </section>
+
+				<!-- SECTION 2 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							<img src="../images/form-wizard-2.jpg" alt="">
+						</div>
+						<div class="form-content">
+							<div class="form-header" style="margin-bottom: 5%">
+								<h3>Matricula de cursos</h3>
+							</div>
+							<p>Seleccione algunos modulos</p>
+
+							<div class="form-row ">
+
+								<div class="form-check mx-auto">
+									<input class="form-check-input" type="checkbox" value="basico" name="basico" id="defaultCheck1">
+									<label class="form-check-label" for="defaultCheck1">
+									  Basico 
+									</label>
+								  </div>
+								  <div class="form-check mx-auto">
+									<input class="form-check-input" type="checkbox" value="intermedio" name="intermedio" id="defaultCheck2">
+									<label class="form-check-label" for="defaultCheck2">
+									  Intermedio 
+									</label>
+								  </div>
+								  <div class="form-check mx-auto">
+									<input class="form-check-input" type="checkbox" value="avanazado" name="Avanzado" id="defaultCheck3">
+									<label class="form-check-label" for="defaultCheck3">
+									  Avanzado 
+									</label>
+								  </div>
+								  
+							</div>
+		
+						</div>
+					</div>
+				</section>
+
+				
+				
+
+                <!-- SECTION 3 -->
+                <h2></h2>
+                <section>
+                    <div class="inner">
+						<div class="image-holder">
+							<img src="../images/form-wizard-3.jpg" alt="">
+						</div>
+
+						<div class="form-content">
+								<div class="form-header" style="margin-bottom: 5%">
+									<h3>Matricula de Cursos</h3>
+								</div>
+								<p>Selecione un metodo de pago</p>
+								<div class="form-row">
+	
+								<div class="form-check mx-auto">
+								<input class="form-check-input" type="radio" name="cred" id="gridRadios1" value="efectivo">
+								<label class="form-check-label" for="gridRadios1">
+									Efectivo
+								</label>
+								</div>
+	
+								<div class="form-check mx-auto">
+								<input class="form-check-input" type="radio" name="cred" id="gridRadios2" value="credito">
+								<label class="form-check-label" for="gridRadios2">
+								Credito
+								</label>
+								</div>
+	
+								</div>
+
+								<button type="submit" class="btn btn-success btn-lg btn-block">Calcular</button>
+						</div>	
+					</div>
+				</section>
+
+				
+
+            </form>
+		</div>
+
+		
+		<!-- JQUERY -->
+		<script src="../javascripts/jquery-3.3.1.min.js"></script>
+
+		<!-- JQUERY STEP -->
+		<script src="../javascripts/jquery.steps.js"></script>
+		<script src="../javascripts/main.js"></script>
+		<!-- Template created and distributed by Colorlib -->
+</body>
+</html>
